@@ -1,0 +1,141 @@
+.side {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  background-color: black;
+  display: flex;
+  margin: 0px;
+}
+
+.dot {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  text-align: center;
+  color: black;
+  line-height: 50px;
+}
+
+.side--6 > .dot:nth-last-of-type(6) {
+  top: 15px;
+  left: 20px;
+}
+
+.side--6 > .dot:nth-last-of-type(5) {
+  top: 75px;
+  left: 20px;
+}
+
+.side--6 > .dot:nth-last-of-type(4) {
+  top: 135px;
+  left: 20px;
+}
+
+.side--6 > .dot:nth-last-of-type(3) {
+  top: 15px;
+  right: 20px;
+}
+
+.side--6 > .dot:nth-last-of-type(2) {
+  top: 75px;
+  right: 20px;
+}
+
+.side--6 > .dot:nth-last-of-type(1) {
+  top: 135px;
+  right: 20px;
+}
+
+/* 5TH-Face */
+
+.side--5 > .dot:nth-last-of-type(5) {
+  top: 15px;
+  left: 20px;
+}
+
+.side--5 > .dot:nth-last-of-type(4) {
+  top: 135px;
+  left: 20px;
+}
+
+.side--5 > .dot:nth-last-of-type(3) {
+  top: 15px;
+  right: 20px;
+}
+
+.side--5 > .dot:nth-last-of-type(2) {
+  top: 75px;
+  right: 75px;
+}
+
+.side--5 > .dot:nth-last-of-type(1) {
+  top: 135px;
+  right: 20px;
+}
+
+/* 4TH-Face */
+
+.side--4 > .dot:nth-last-of-type(4) {
+  top: 135px;
+  left: 20px;
+}
+
+.side--4 > .dot:nth-last-of-type(3) {
+  top: 15px;
+  right: 20px;
+}
+
+.side--4 > .dot:nth-last-of-type(2) {
+  top: 15px;
+  left: 20px;
+}
+
+.side--4 > .dot:nth-last-of-type(1) {
+  top: 135px;
+  right: 20px;
+}
+
+/* 3RD-Face */
+
+.side--3 > .dot:nth-last-of-type(3) {
+  top: 75px;
+  right: 75px;
+}
+
+.side--3 > .dot:nth-last-of-type(2) {
+  top: 15px;
+  left: 20px;
+}
+
+.side--3 > .dot:nth-last-of-type(1) {
+  top: 135px;
+  right: 20px;
+}
+
+/* 2ND-Face */
+
+.side--2 > .dot:nth-last-of-type(2) {
+  top: 15px;
+  left: 20px;
+}
+
+.side--2 > .dot:nth-last-of-type(1) {
+  top: 135px;
+  right: 20px;
+}
+
+/* 1ST-Face */
+
+.side--1 > .dot {
+  top: 75px;
+  left: 75px;
+}
+
+.faces {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
