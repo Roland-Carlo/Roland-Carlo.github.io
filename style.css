@@ -1,6 +1,14 @@
 header {
   position: relative;
-  left: 300px;
+  padding: 10px;
+  left: 280px;
+  width: 1000px;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.8), rgb(0 0 0 / 0)),
+    url("/media/ilaw.jpg");
+  object-fit: scale-down;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
 }
 
 .vertical-menu {
@@ -25,4 +33,16 @@ header {
 .vertical-menu a.active {
   background-color: #04aa6d; /* Add a green color to the "active/current" link */
   color: white;
+}
+
+h2.docu_menu {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+}
+
+.h1_title {
+  position: sticky;
+  top: 10px;
 }
