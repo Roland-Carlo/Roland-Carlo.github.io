@@ -46,3 +46,7 @@ h2.docu_menu {
   position: sticky;
   top: 10px;
 }
+
+body {
+  background-image: url("bg.jpg");
+}
